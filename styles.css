@@ -1,0 +1,116 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/wallpaperflare.com_wallpaper\ \(1\).jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    display: flex;/* Prueba con flexbox para ajustar el footer al pie de pagina */
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+/* Estilos para el encabezado */
+header {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; /* Centra el contenido */
+    padding: 10px; /* Añade espaciado alrededor del contenido */
+    border-radius: 10px;
+    background-color: #33333380; /* Cambia el color de fondo */
+    color: #fff; /* Cambia el color del texto */
+
+}
+.logo{
+    border-radius: 10px;
+    padding: 20px;
+    width: 100px;
+    height: auto;
+    position:static;
+
+
+
+}
+h1 {
+    font-size: 36px; /* Cambia el tamaño de fuente del encabezado */
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
+
+a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #fff; /* Cambia el color del texto de los enlaces */
+}
+
+/* Estilos para el logo */
+.contentLogo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    align-items: center;
+
+}
+
+/* Estilos para la barra de navegación */
+.menu{    
+    display: flex;
+    height: auto;
+    /* width: 100%;
+    padding: 15px;
+    border-radius: 20px; */
+}
+.menu ul {
+    list-style-type: none; /* Quita los marcadores de lista */
+    height: auto;
+    margin: 0px 10px;
+    padding: 0; /* Quita el espacio interno de la lista */
+    display: flex; /* Convierte la lista en un flex container */
+    justify-content: space-around; /* Distribuye los elementos uniformemente */
+}
+
+.menu li {
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.514); /* Cambia el color de fondo de la barra de navegación */
+    padding: 10px; /* Añade espaciado interno a cada elemento de la lista */
+}
+
+/* Estilos para el contenido principal */
+.container {
+    max-width: 1200px; /* Establece un ancho máximo para el contenido */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Añade espaciado alrededor del contenido */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333333e3; /* Cambia el color de fondo */
+    color: #fff; /* Cambia el color del texto */
+    text-align: center; /* Centra el contenido */
+    padding: 10px; /* Añade espaciado alrededor del contenido */
+    position:static;
+    border-radius: 10px;
+    margin-top: auto;/* Esto ayuda junto al flexbox a 
+    colocar el footer en la parte de abajo de la pagina */
+}
+
+
+.iconFooter {
+    height: 48px;
+
+    }
