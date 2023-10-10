@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css 123.css">
+    <title>Documento.contacto</title>
+</head>
+<body>
+    <header>
+        <div class="contentLogo">
 
+            <img class="logo" src="Obelisco.gif" alt="logo">
+            <h1>Inmobiliaria Obelisco</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li >Inicio</li>
+                <li>Ventas</li>
+                <li>Alquiler</li>
+                <li>Proyectos</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+
+    </header>
+    <h1> conacto</h1>
+    <button> Acepto </button>
+    <label for="condiciones">
+        Acepto las condiciones legales.
+    </label>
+</body>
+</html>
