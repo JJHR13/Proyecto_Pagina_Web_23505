@@ -51,6 +51,10 @@ h1 {
 }
 h2{
     text-align: center;
+        color: #fff;
+        background-color: #141212a1;
+        border-radius: 5px;
+        padding: 5px;
 }
 
 a {
@@ -169,6 +173,15 @@ footer {
 
 
 .iconFooter {
-    height: 25px;
+    height: 20px;
 
     }
+
+p{
+    color:#fff;
+    font-size: 12px;
+    
+} 
+.correo{
+    
+}
