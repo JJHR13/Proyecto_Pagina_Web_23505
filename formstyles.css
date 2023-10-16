@@ -1,0 +1,91 @@
+//Al haber clases con la misma denominación en el main de html generamos estas clasesForm para el formulario
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.h1Form {
+    position: relative;
+   display: flex;
+   justify-content: center;
+   background-color: #337ab7;
+   width: 17.97vw;
+}
+
+.containerForm {
+    position: relative;
+    top: 60vw;
+    display: flex;
+    justify-content: row center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 auto;
+}
+.filaForm {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+
+}
+.parallaxForm {
+    background-image: url('../img/obelisco\ dorne.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 3rem 2rem;
+
+}
+.flexForm-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 73%;
+
+}
+
+.form-group {
+    margin-bottom: 7px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.37rem;
+    z-index: 30;
+}
+.myLabel{
+    background-color: #337ab7;
+    width: 17.97vw;
+    display: flex;
+   justify-content: center;
+   color: #fff;
+   border-radius: 3px;
+}
+
+input {
+    width: 73%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.error-message {
+    color: #d9534f;
+    z-index: 30;
+}
+
+button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
