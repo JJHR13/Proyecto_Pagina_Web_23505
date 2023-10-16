@@ -3,37 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Obelisco.</title>
+    <title>Obelisco</title>
+    <link rel="icon" href="img/Obelisco (2).png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-        <div class="contentLogo">
-
-            <img class="logo" src="img/Obelisco.gif" alt="logo">
-            <h1>Inmobiliaria Obelisco</h1>
-        </div>
-        <nav class="menu">
-          <ul>
-              <!--la etiqueta A nos permite vincular paginas-->
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="ventas.html">Ventas</a></li>
-              <li><a href="alquiler.html">Alquiler</a></li>
-              <li><a href="proyectos.html">Proyectos</a></li>
-              <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-
+      <div class="contentLogo">
+        <img class="logo" src="img/Obelisco.gif" alt="logo" />
+        <h1>Inmobiliaria Obelisco</h1>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="ventas.html">Ventas</a></li>
+          <li><a href="alquiler.html">Alquiler</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
     <main class="container">
       <h2>Para Nuestros Clientes en Buenos Aires</h2>
       <article>
-        <br>
-        </article>
+        <br />
+      </article>
       <section class="formulario">
         <div class="container2">
           <h1 class="bus">Búsqueda de Propiedades</h1>
-          <form>
-            <label for="tipo"></label>
+          <form id="search-form">
+            <label for="tipo">Selecciona el tipo de propiedad:</label>
             <select id="tipo" name="tipo">
               <option value="casa">Casa</option>
               <option value="alquiler">Alquiler</option>
@@ -53,32 +52,16 @@
     </main>
     <footer>
       <a href="https://www.facebook.com/" target="_blank">
-        <img
-          class="iconFooter"
-          src="img/facebook.png"
-          alt="icono de facebook"
-        />
+        <img class="iconFooter" src="img/facebook.png" alt="icono de facebook" />
       </a>
       <a href="https://twitter.com/?lang=es" target="_blank">
-        <img
-          class="iconFooter"
-          src="img/twitwer nuevo.jpeg"
-          alt="inoco de twitter"
-        />
+        <img class="iconFooter" src="img/twitwer nuevo.jpeg" alt="inoco de twitter" />
       </a>
       <a href="https://web.whatsapp.com/" target="_blank">
-        <img
-          class="iconFooter"
-          src="img/whatsapp.png"
-          alt="icono de whatsapp"
-        />
+        <img class="iconFooter" src="img/whatsapp.png" alt="icono de whatsapp" />
       </a>
       <a href="https://www.instagram.com/" target="_blank">
-        <img
-          class="iconFooter"
-          src="img/instagram.png"
-          alt="icono de instagram"
-        />
+        <img class="iconFooter" src="img/instagram.png" alt="icono de instagram" />
       </a>
 
       <p>
@@ -89,5 +72,6 @@
         <i class="fa fa-envelope"></i> Enviar correo
       </a>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
