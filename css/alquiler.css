@@ -1,25 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    }
-    
-    body {
-        font-family: Arial, sans-serif;
-        background-image: url(/Proyecto_Pagina_Web_23505/img/wallpaperflare.com_wallpaper\ \(11\).jpg);
-        background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-        background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
-        display: flex;/* Prueba con flexbox para ajustar el footer al pie de pagina */
-        flex-direction: column;
-        min-height: 100vh;
-        width: 100%;
-        
-        
-    }
-    
-    /* Estilos para el encabezado */
-    header {
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/Proyecto_Pagina_Web_23505/img/wallpaperflare.com_wallpaper (11).jpg");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+header {
         width: 100%;
         display:flex;
         flex-direction: row;
@@ -31,154 +27,210 @@
         border-radius: none;
         background-color: #33333380; /* Cambia el color de fondo */
         color: #fff; /* Cambia el color del texto */
-    
+}
+
+.logo {
+    border-radius: 30px;
+    padding: 20px;
+    width: 110px;
+    height: auto;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    background-color: #141212a1;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contentLogo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li:hover {
+    color: #021224fa;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu li {
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.822);
+    background-color: #555657c7;
+}
+
+.bus {
+    -webkit-text-stroke: 2px #3333332f;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+select,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border: 1px solid #08080865;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: rgba(250, 249, 247, 0.582);
+}
+
+input[type="submit"] {
+    background-color: darkgoldenrod;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #08080865;
+}
+
+input[type="submit"]:hover {
+    background-color: #0057b367;
+    border: 1px solid #08080865;
+}
+
+.filas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* tarjetas de venta y alquiler*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background-color: #ffffffc5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.like-button,
+.contact-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.like-button:hover,
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333333e3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    border-radius: none;
+    margin-top: auto;
+}
+
+.descripcion{
+        color:black;
     }
-    .logo{
-        border-radius: 30px;
-        padding: 20px;
-        width: 110px;
-        height: auto;
-        position:static;
-    
-    }
-    .logo{
-        cursor:alias;
-    }
-    h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 36px; /* Cambia el tamaño de fuente del encabezado */
-        text-align: center;
-        
-    }
-    h2{
-        text-align: center;
-        color: #fff;
-        background-color: #141212a1;
-        border-radius: 5px;
-        padding: 5px;
-    }
-    
-    a {
-        text-decoration: none; /* Quita el subrayado de los enlaces */
-        color: #fff; /* Cambia el color del texto de los enlaces */
-    }
-    
-    /* Estilos para el logo */
-    .contentLogo{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 10px;
-        align-items: center;
-    
-    }
-    
-    /* Estilos para la barra de navegación */
-    .menu{    
-        display: flex;
-        height: auto;
-        /* width: 100%;
-        padding: 15px;
-        border-radius: 20px; */
-    }
-    .menu ul {
-        list-style-type: none; /* Quita los marcadores de lista */
-        height: auto;
-        margin: 0px 10px;
-        padding: 0; /* Quita el espacio interno de la lista */
-        display: flex; /* Convierte la lista en un flex container */
-        justify-content: space-around; /* Distribuye los elementos uniformemente */
-    }
-    .menu ul li:hover{
-        color: #021224fa; /* Cambia el color de texto en el hover a azul */
-        font-weight: bold; 
-        cursor: pointer;
-    }
-    .menu li {
-        margin: 0px 10px;
-        border-radius: 10px;
-        background-color:rgba(0, 0, 0, 0.514); /* Cambia el color de fondo de la barra de navegación */
-        padding: 10px; /* Añade espaciado interno a cada elemento de la lista */
-    }
-    
-    /* Estilos para el contenido principal */
-    .container {
-        max-width: 1200px; /* Establece un ancho máximo para el contenido */
-        margin: 0 auto; /* Centra el contenido horizontalmente */
-        padding: 20px; /* Añade espaciado alrededor del contenido */
-    }
-    
-    .container2 {
-        max-width: 1000px;
-        margin: 0 auto;
-        border: 1px solid rgba(0, 0, 0, 0.288);
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.822);
-        background-color: #555657c7;
-       
-        
-    }
-    
-    .bus {
-        -webkit-text-stroke: 2px #3333332f;
-        font-family: 'Montserrat', sans-serif;
-        
-        color:#fff /* Cambia el color del texto */
-         
-    
-        
-        
-    }
-    
-    
-    select, input[type="submit"] {
-        width: 100%;
-        padding: 10px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 15px;
-        border: 1px solid #08080865;
-        border-radius: 4px;
-        margin-bottom: 10px; 
-        background-color:rgba(250, 249, 247, 0.582)
-        
-        
-    }
-    
-    input[type="submit"] {
-        background-color:darkgoldenrod;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        border: 1px solid #08080865;
-    }
-    
-    input[type="submit"]:hover {
-        background-color: #0057b367;
-        border: 1px solid #08080865;
-    }
-    
-    /* Estilos para el pie de página */
-    footer {
-        background-color: #333333e3; /* Cambia el color de fondo */
-        color: #fff; /* Cambia el color del texto */
-        text-align: center; /* Centra el contenido */
-        padding: 10px; /* Añade espaciado alrededor del contenido */
-        position:static;
-        border-radius: none;
-        margin-top: auto;/* Esto ayuda junto al flexbox a 
-        colocar el footer en la parte de abajo de la pagina */
-    }
-    
-    
-    .iconFooter {
-        height: 20px;
-    
-        }
-        p{
-            color:#fff;
-            font-size: 12px;
-            
-        }      
+
+.iconFooter {
+    width: 20px;
+    height: 20px;
+}
+
+p {
+    color: #fff;
+    font-size: 12px;
+}
