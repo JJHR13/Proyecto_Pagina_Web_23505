@@ -1,10 +1,12 @@
+// Aquí generamos las variables necesarias para obtener las referencias a cada elemento de entrada del formulario previa carga de la página
 document.addEventListener('DOMContentLoaded', function() {
     const registrationForm = document.getElementById('registrationForm');
     const nombreInput = document.getElementById('nombre');
     const emailInput = document.getElementById('email');
     const nombreError = document.getElementById('nombreError');
     const emailError = document.getElementById('emailError');
-
+    
+// Aquí permite editar las variables de entrada si no verifican, antes de que se cargue de nuevo la página
     registrationForm.addEventListener('submit', function(e) {
         e.preventDefault();
 
