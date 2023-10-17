@@ -7,8 +7,8 @@
     
     body {
         font-family: Arial, sans-serif;
-        background-image: url(/Proyecto_Pagina_Web_23505/img/wallpaperflare.com_wallpaper\ \(12\).jpg);
-        background-size: cover; /
+        background-image: url("./../img/wallpaperflare.com_wallpaper_12.jpg");
+        background-size: cover; 
         background-repeat: no-repeat; 
         display: flex;
         flex-direction: column;
