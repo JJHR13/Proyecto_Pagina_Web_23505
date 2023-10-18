@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("img/wallpaperflare.com_wallpaper (11).jpg");
+    background-image: url("./../img/wallpaperflare.com_wallpaper_10.jpg");
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
     display: flex;

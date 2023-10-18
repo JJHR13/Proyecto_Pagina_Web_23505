@@ -7,7 +7,7 @@
     
     body {
         font-family: Arial, sans-serif;
-        background-image: url(/Proyecto_Pagina_Web_23505/img/house-5902665_1920.jpg);
+        background-image: url("./../img/house-5902665_1920.jpg");
         background-size: cover; 
         background-repeat: no-repeat; 
         display: flex;
