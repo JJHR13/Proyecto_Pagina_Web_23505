@@ -46,7 +46,7 @@ h1 {
 h2 {
     text-align: center;
     color: #fff;
-    background-color: #141212a1;
+    background-color: #33333380;
     border-radius: 5px;
     padding: 5px;
 }
@@ -91,7 +91,9 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-}
+    width: 90%;
+    aspect-ratio: 3/2;
+ }
 
 .container2 {
     max-width: 1000px;

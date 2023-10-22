@@ -7,7 +7,7 @@ box-sizing: border-box;
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('img/wallpaperflare.com_wallpaper\ \(1\).jpg');
+    background-image: url('img/wallpaperflare.com_wallpaper_1.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     display: flex;
@@ -104,7 +104,8 @@ a {
 .container {
     max-width: 1200px; 
     margin: 0 auto; 
-    padding: 20px; 
+    padding: 20px;
+    aspect-ratio: 3/2; 
 }
 
 .container2 {
@@ -115,6 +116,7 @@ a {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.822);
     background-color: #555657c7;
+    
    
     
 }

@@ -29,6 +29,16 @@ document.addEventListener('DOMContentLoaded', function() {
         if (nombreError.textContent === '' && emailError.textContent === '') {
             // Aquí se puede enviar los datos del formulario al servidor o comunicar el registro existoso
             alert('Registro exitoso');
+            
+        
+            
+            
+            
+
         }
+           
     });
+    
+    
 });
+

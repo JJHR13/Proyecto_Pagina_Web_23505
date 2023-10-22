@@ -13,6 +13,8 @@ document.getElementById('registro-form').addEventListener('submit', function (e)
 
     if (errorMsg === '') {
         // Registro exitoso, muestra una alerta
+        document.getElementById('nombre').value = "";
+        document.getElementById('email').value = "";
         alert('¡Registro exitoso! En breve nos comunicaremos contigo.');
         // Puedes redirigir al usuario a otra página aquí si es necesario
     } else {
