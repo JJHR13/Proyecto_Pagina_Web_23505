@@ -163,12 +163,20 @@
 
     
 /* tarjetas de venta y alquiler*/
-main {
+main{ 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px;
-}
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+       
+ }
+ .cards-container{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
 
 .card {
     background-color: #fff;

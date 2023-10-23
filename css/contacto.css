@@ -99,6 +99,20 @@
         background-color:rgba(0, 0, 0, 0.514); 
         padding: 10px; 
     }
+    main{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+           
+     }
+     .cards-container{
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
     
 /* registro de usuario*/
     form {

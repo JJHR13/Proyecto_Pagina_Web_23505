@@ -145,14 +145,23 @@ input[type="submit"]:hover {
 }
 
 /* tarjetas de venta y alquiler*/
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px;
-}
 
+main{ 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+      
+}
+.cards-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .card {
+    
     background-color: #ffffffc5;
     border: 1px solid #ddd;
     border-radius: 5px;
